@@ -12,7 +12,7 @@ const Sidebar = () => {
           <a href="#">
             <img
               className="max-w-[150px]"
-              src="assets/img/logo/dark.png"
+              src="assets/img/logo/name.png"
               alt="image"
             />
             <h3 className="font-poppins font-black text-[31px] tracking-[5px]">
@@ -42,8 +42,8 @@ const Sidebar = () => {
         </div>
         <div className="copyright w-full float-left">
           <p className="text-[15px] text-[#999] font-montserrat leading-[25px]">
-            © {new Date().getFullYear()} Tokyo
-            <br />
+            Copyright © {new Date().getFullYear()}
+            {/* <br />
             Created by{" "}
             <a
               className="text-[#787878] font-medium transition-all duration-300 hover:text-black"
@@ -51,7 +51,7 @@ const Sidebar = () => {
               target="_blank"
             >
               Codeefly
-            </a>
+            </a> */}
           </p>
         </div>
       </div>
