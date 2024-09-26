@@ -3,6 +3,7 @@ import SectionTitle from "./SectionTitle";
 import EducationExperience from "./about/EducationExperience";
 import Intro from "./about/Intro";
 import KnowledgeInterests from "./about/KnowledgeInterests";
+import MyknowledgeInterests from "./about/MyknowledgeInterests";
 import Skills from "./about/Skills";
 import Testimonials from "./about/Testimonials";
 const About = () => {
@@ -18,8 +19,9 @@ const About = () => {
           <Intro />
         </div>
       </div>
-      <Skills />
-      <KnowledgeInterests />
+      {/* <Skills /> */}
+      {/* <KnowledgeInterests /> */}
+      <MyknowledgeInterests />
       <EducationExperience />
       <Testimonials />
     </SectionContainer>
