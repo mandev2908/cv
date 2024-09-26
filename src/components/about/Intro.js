@@ -12,8 +12,8 @@ const Intro = () => {
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
           Hi, my name is Man Huynh and I a frontend developer with a strong
-          foundation in creating intuitive user interfaces. Over the past two
-          years, I've expanded my skills into fullstack development, recently
+          foundation in creating intuitive user interfaces. Over the past one
+          year, I've expanded my skills into fullstack development, recently
           focusing on NextJS and Node.js for backend work.
         </p>
         <p>
@@ -91,7 +91,7 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Study:
                 </span>
-                <span>Huit Univercity</span>
+                <span>Huit University</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
