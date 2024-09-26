@@ -7,15 +7,60 @@ import SectionTitle from "./SectionTitle";
 const detailData = [
   {
     id: 1,
-    thumbnail: "assets/img/portfolio/7.jpg",
-    title: "Selena Gomez",
+    thumbnail: "assets/img/portfolio/cloudCity/cloudCity1.jpg",
+    title: "Cloudy City",
     text: [
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
-      "Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will represent the target product. Making mockups a part of your creative and development process allows you to quickly and easily ideate.",
+      "Cloudy City is here to support finding and connecting remote workers, digital nomads and freelancers in a skill sharing environment where everyone can grow from a global network of experience.",
     ],
-    client: "Alvaro Morata",
+    client: "...",
+    myWork:
+      "Building UX/UI, refactor & optimize component UI, intergrate API, etc...",
     date: "October 22, 2022",
-    category: "Detail",
+    category: "...",
+    teamSize: "6",
+    technologiesUsed: "ReactJS",
+    link: "https://cloudycity.io/",
+    share: [
+      {
+        id: 1,
+        iconName: "icon-facebook-squared",
+        link: "https://www.facebook.com/",
+      },
+      {
+        id: 2,
+        iconName: "icon-twitter-squared",
+        link: "https://twitter.com/",
+      },
+      {
+        id: 3,
+        iconName: "icon-behance-squared",
+        link: "https://www.behance.net/",
+      },
+      {
+        id: 4,
+        iconName: "icon-linkedin-squared",
+        link: "https://www.linkedin.com/",
+      },
+    ],
+    bigImage: "assets/img/portfolio/cloudCity/cloudCity2.jpg",
+    images: [
+      "assets/img/portfolio/cloudCity/cloudCity3.jpg",
+      "assets/img/portfolio/cloudCity/cloudCity4.jpg",
+    ],
+  },
+  {
+    id: 2,
+    thumbnail: "assets/img/portfolio/7.jpg",
+    title: "Sở Khoa Học và Công Nghệ",
+    text: [""],
+    client: "",
+    myWork:
+      "Building UX/UI, refactor & optimize component UI, intergrate API, etc...",
+    date: "October 22, 2022",
+    category: "Vietnam",
+    teamSize: "6",
+    technologiesUsed: "ReactJS",
+    link: "http://poc-khcn-brvt.systems.vn/",
     share: [
       {
         id: 1,
@@ -42,16 +87,18 @@ const detailData = [
     images: ["assets/img/portfolio/2.jpg", "assets/img/portfolio/3.jpg"],
   },
   {
-    id: 2,
-    thumbnail: "assets/img/portfolio/8.jpg",
-    title: "Ave Simone",
-    text: [
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
-      "Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will represent the target product. Making mockups a part of your creative and development process allows you to quickly and easily ideate.",
-    ],
-    client: "Alvaro Morata",
+    id: 3,
+    thumbnail: "assets/img/portfolio/7.jpg",
+    title: "Saigon Medic",
+    text: [""],
+    client: "",
+    myWork:
+      "Building UX/UI, refactor & optimize component UI, intergrate API, etc...",
     date: "October 22, 2022",
-    category: "Detail",
+    category: "Vietnam",
+    teamSize: "6",
+    technologiesUsed: "ReactJS",
+    link: "https://saigonmedic.com/",
     share: [
       {
         id: 1,
@@ -178,7 +225,7 @@ const Portfolio = () => {
           </div>
           <div className="list_wrapper w-full h-auto clear-both float-left">
             <ul className="portfolio_list gallery_zoom ml-[-40px] list-none">
-              <li className="vimeo mb-[40px] float-left w-1/3 pl-[40px] item__">
+              {/* <li className="vimeo mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
@@ -270,19 +317,47 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-              </li>
+              </li> */}
               <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Selena Gomez"
-                    data-category="Detail"
+                    data-title="Cloudy City"
+                    data-category="..."
                   >
                     <a
                       className="popup_info"
                       href="#"
                       onClick={() => {
                         setPortfolioDetailsModal(detailData[0]);
+                        modalToggle(true);
+                      }}
+                    >
+                      <img
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
+                      />
+                      <div
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/thumbs/cloudCity.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Sở Khoa Học và Công Nghệ"
+                    data-category="Vietnam"
+                  >
+                    <a
+                      className="popup_info"
+                      href="#"
+                      onClick={() => {
+                        setPortfolioDetailsModal(detailData[1]);
                         modalToggle(true);
                       }}
                     >
@@ -303,14 +378,14 @@ const Portfolio = () => {
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Ave Simone"
-                    data-category="Detail"
+                    data-title="Saigon Medic"
+                    data-category="Vietnam"
                   >
                     <a
                       className="popup_info"
                       href="#"
                       onClick={() => {
-                        setPortfolioDetailsModal(detailData[1]);
+                        setPortfolioDetailsModal(detailData[0]);
                         modalToggle(true);
                       }}
                     >
