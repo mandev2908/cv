@@ -1,41 +1,23 @@
 const experiencesData = [
   {
     id: 1,
-    date: "2018 - Now",
-    designation: "Exclusive Author",
-    company: "Envato Market",
-  },
-  {
-    id: 2,
-    date: "2016 - 2018",
-    designation: "UX Designer",
-    company: "RGB Studio",
-  },
-  {
-    id: 3,
-    date: "2012 - 2016",
-    designation: "Web Designer",
-    company: "Innovations Park",
+    date: "2023 - 2024",
+    designation: "Frontend Developer",
+    company: "NeoTech",
   },
 ];
 const educationData = [
   {
     id: 1,
-    date: "2014 - 2016",
-    degree: "Master Degree",
-    institute: "Oxford Univercity",
+    date: "2018 - 2022",
+    degree: "Bachelor of Accounting",
+    institute: "Huit University",
   },
   {
     id: 2,
-    date: "2010 - 2014",
-    degree: "Bachelor Degree",
-    institute: "Texas Univercity",
-  },
-  {
-    id: 3,
-    date: "2008 - 2010",
-    degree: "Associate Degree",
-    institute: "Simone College",
+    date: "2022 - 2023",
+    degree: "Science in Computer Science",
+    institute: "TTTH-Hus University",
   },
 ];
 

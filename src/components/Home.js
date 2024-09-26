@@ -7,18 +7,8 @@ const socialIcon = [
   },
   {
     id: 2,
-    iconName: "icon-twitter-squared",
-    link: "https://twitter.com/",
-  },
-  {
-    id: 3,
-    iconName: "icon-behance-squared",
-    link: "https://www.behance.net/",
-  },
-  {
-    id: 4,
-    iconName: "icon-linkedin-squared",
-    link: "https://www.linkedin.com/",
+    iconName: "icon-github-squared",
+    link: "https://github.com//",
   },
 ];
 const Home = () => {
@@ -31,20 +21,18 @@ const Home = () => {
               className="avatar min-w-[300px] min-h-[300px] relative rounded-full"
               data-type="wave"
             >
-              {" "}
-              {/* data-type values are: "wave", "circle", "square"*/}
               <div
                 className="image absolute inset-0 bg-no-repeat bg-center bg-cover"
-                data-img-url="assets/img/slider/1.jpg"
+                data-img-url="assets/img/slider/avatar.jpg"
               />
             </div>
             <div className="details ml-[80px]">
               <h3 className="name text-[55px] font-extrabold uppercase mb-[14px]">
-                Adriano <span>Smith</span>
+                Huynh Minh <span>Man</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                I am a WordPress Developer at heart and create features that are
-                best suited for the job at hand.
+                I thrive as a Web Developer, crafting tailored features to excel
+                in every task.
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">

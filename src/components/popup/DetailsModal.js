@@ -45,6 +45,12 @@ const DetailsModal = () => {
               </li>
               <li className="mb-[8px] w-full float-left">
                 <span className="first font-bold block text-black mb-[3px]">
+                  My work
+                </span>
+                <span>{portfolioDetailsModal.myWork}</span>
+              </li>
+              <li className="mb-[8px] w-full float-left">
+                <span className="first font-bold block text-black mb-[3px]">
                   Category
                 </span>
                 <span>
@@ -57,6 +63,46 @@ const DetailsModal = () => {
                 </span>
               </li>
               <li className="mb-[8px] w-full float-left">
+                <span className="first font-bold block text-black mb-[3px]">
+                  Team size
+                </span>
+                <span>
+                  <a
+                    className="text-[#767676] transition-all duration-300 hover:text-black"
+                    href="#"
+                  >
+                    {portfolioDetailsModal.teamSize}
+                  </a>
+                </span>
+              </li>
+              <li className="mb-[8px] w-full float-left">
+                <span className="first font-bold block text-black mb-[3px]">
+                  Technologies used
+                </span>
+                <span>
+                  <a
+                    className="text-[#767676] transition-all duration-300 hover:text-black"
+                    href="#"
+                  >
+                    {portfolioDetailsModal.technologiesUsed}
+                  </a>
+                </span>
+              </li>
+              <li className="mb-[8px] w-full float-left">
+                <span className="first font-bold block text-black mb-[3px]">
+                  Link
+                </span>
+                <span>
+                  <a
+                    className="text-[#767676] transition-all duration-300 hover:text-black"
+                    href={portfolioDetailsModal.link}
+                    target="_blank"
+                  >
+                    {portfolioDetailsModal.link}
+                  </a>
+                </span>
+              </li>
+              {/* <li className="mb-[8px] w-full float-left">
                 <span className="first font-bold block text-black mb-[3px]">
                   Date
                 </span>
@@ -75,7 +121,7 @@ const DetailsModal = () => {
                     </li>
                   ))}
                 </ul>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -91,7 +137,7 @@ const DetailsModal = () => {
                   />
                   <div
                     className="main absolute inset-0 bg-no-repeat bg-center bg-cover"
-                    data-img-url="assets/img/portfolio/1.jpg"
+                    data-img-url={portfolioDetailsModal.bigImage}
                     style={{
                       backgroundImage: `url(${portfolioDetailsModal.bigImage})`,
                     }}
@@ -110,7 +156,7 @@ const DetailsModal = () => {
                     />
                     <div
                       className="main absolute inset-0 bg-no-repeat bg-center bg-cover"
-                      data-img-url="assets/img/portfolio/2.jpg"
+                      data-img-url={img}
                       style={{
                         backgroundImage: `url(${img})`,
                       }}
@@ -119,6 +165,7 @@ const DetailsModal = () => {
                 </div>
               </li>
             ))}
+            {/* test */}
           </ul>
         </div>
       </div>

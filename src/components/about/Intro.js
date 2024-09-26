@@ -6,21 +6,22 @@ const Intro = () => {
         <img className="min-w-full" src="assets/img/slider/1.jpg" alt="image" />
       </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
-        <h3 className="text-[22px] font-bold">Adriano Smith</h3>
+        <h3 className="text-[22px] font-bold">Huynh Minh Man</h3>
         <span>Web Developer</span>
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
-          Hi, my name is Adriano Smith and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
+          Hi, my name is Man Huynh and I a frontend developer with a strong
+          foundation in creating intuitive user interfaces. Over the past one
+          year, I've expanded my skills into fullstack development, recently
+          focusing on NextJS and Node.js for backend work.
         </p>
         <p>
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
+          I'm increasingly drawn to backend development and aim to become a
+          proficient backend developer while leveraging my frontend expertise.
+          My problem-solving skills have been crucial to project success, and
+          I'm passionate about advancing my skills across the fullstack
+          spectrum.
         </p>
       </div>
       <div className="tokyo_tm_short_info w-full h-auto clear-both float-left flex border-solid border-[#DFDFDF] border-b pb-[30px] mb-[40px]">
@@ -31,19 +32,22 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Birthday:
                 </span>
-                <span>01.07.1990</span>
+                <span>29.08.2000</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Age:
                 </span>
-                <span>32</span>
+                <span>24</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Address:
                 </span>
-                <span>Ave 11, New York, USA</span>
+                <span>
+                  A10/26D3 Street No. 10, Binh Hung commune, Binh Chanh
+                  district, Ho Chi Minh city
+                </span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -52,9 +56,9 @@ const Intro = () => {
                 <span>
                   <a
                     className="text-[#767676] transition-all duration-300 hover:text-black"
-                    href="mailto:tokyo@gmail.com"
+                    href="mailto:mandev.2908@gmail.com"
                   >
-                    tokyo@gmail.com
+                    mandev.2908@gmail.com
                   </a>
                 </span>
               </li>
@@ -65,9 +69,9 @@ const Intro = () => {
                 <span>
                   <a
                     className="text-[#767676] transition-all duration-300 hover:text-black"
-                    href="tel:+77 022 177 05 05"
+                    href="tel:+84 938 45 15 22"
                   >
-                    +77 022 177 05 05
+                    +84 938 45 15 22
                   </a>
                 </span>
               </li>
@@ -81,25 +85,25 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Nationality:
                 </span>
-                <span>USA</span>
+                <span>Vietnam</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Study:
                 </span>
-                <span>Univercity of Texas</span>
+                <span>Huit University</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Degree:
                 </span>
-                <span>Master</span>
+                <span>Bachelor</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Interest:
                 </span>
-                <span>Playing Football</span>
+                <span>Coding, Playing Football, Music</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -111,7 +115,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="tokyo_tm_button" data-position="left">
+      <div className="myapp_tm_button" data-position="left">
         <a href="assets/img/cv/1.jpg" download>
           <span>Download CV</span>
         </a>

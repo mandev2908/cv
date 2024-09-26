@@ -23,7 +23,9 @@ export default function Document() {
         <link rel="stylesheet" href="assets/css/plugins.css" />
         <link rel="stylesheet" href="assets/css/custom.css" />
         <link rel="stylesheet" href="assets/css/main.css" />
-        <title>Tokyo</title>
+        {/* <link rel="icon" href="assets/img/favicon/favicon.ico" sizes="64x64"></link> */}
+        <link rel="icon" href="assets/img/icon/favicon.ico" sizes="64x64" />
+        <title>I'm Man - Web Developer</title>
       </Head>
       <body>
         <Main />
