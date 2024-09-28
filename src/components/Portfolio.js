@@ -50,10 +50,55 @@ const detailData = [
   },
   {
     id: 2,
-    thumbnail: "assets/img/portfolio/7.jpg",
+    thumbnail: "assets/img/portfolio/sgmd/sgmd1.jpg",
+    title: "Saigon Medic",
+    text: [
+      "Welcome to Saigon Medic – your trusted destination for high-quality healthcare services in Ho Chi Minh City. With a mission to provide comprehensive health solutions, we are committed to delivering effective, safe, and friendly medical care.",
+    ],
+    client: "Trung Tâm Y Khoa Sài Gòn - Saigon Medic",
+    myWork:
+      "Building UX/UI, refactor & optimize component UI, intergrate API, etc...",
+    date: "October 22, 2022",
+    category: "Vietnam",
+    teamSize: "6",
+    technologiesUsed: "HTML, CSS",
+    link: "https://saigonmedic.com/saigon-medic",
+    share: [
+      {
+        id: 1,
+        iconName: "icon-facebook-squared",
+        link: "https://www.facebook.com/",
+      },
+      {
+        id: 2,
+        iconName: "icon-twitter-squared",
+        link: "https://twitter.com/",
+      },
+      {
+        id: 3,
+        iconName: "icon-behance-squared",
+        link: "https://www.behance.net/",
+      },
+      {
+        id: 4,
+        iconName: "icon-linkedin-squared",
+        link: "https://www.linkedin.com/",
+      },
+    ],
+    bigImage: "assets/img/portfolio/sgmd/sgmd4.jpg",
+    images: [
+      "assets/img/portfolio/sgmd/sgmd2.jpg",
+      "assets/img/portfolio/sgmd/sgmd3.jpg",
+    ],
+  },
+  {
+    id: 3,
+    thumbnail: "assets/img/portfolio/khcn/khcn.jpg",
     title: "Sở Khoa Học và Công Nghệ",
-    text: [""],
-    client: "",
+    text: [
+      "Welcome to the POC KHCN Bà Rịa - Vũng Tàu System, a platform dedicated to connecting and developing scientific and technological applications to support the sustainable development of the province. We are proud to provide a foundation that fosters research, innovation, and technology transfer to enhance the quality of life for the community.",
+    ],
+    client: "Sở Khoa học và Công nghệ tỉnh Bà Rịa – Vũng Tàu",
     myWork:
       "Building UX/UI, refactor & optimize component UI, intergrate API, etc...",
     date: "October 22, 2022",
@@ -83,46 +128,11 @@ const detailData = [
         link: "https://www.linkedin.com/",
       },
     ],
-    bigImage: "assets/img/portfolio/1.jpg",
-    images: ["assets/img/portfolio/2.jpg", "assets/img/portfolio/3.jpg"],
-  },
-  {
-    id: 3,
-    thumbnail: "assets/img/portfolio/7.jpg",
-    title: "Saigon Medic",
-    text: [""],
-    client: "",
-    myWork:
-      "Building UX/UI, refactor & optimize component UI, intergrate API, etc...",
-    date: "October 22, 2022",
-    category: "Vietnam",
-    teamSize: "6",
-    technologiesUsed: "ReactJS",
-    link: "https://saigonmedic.com/",
-    share: [
-      {
-        id: 1,
-        iconName: "icon-facebook-squared",
-        link: "https://www.facebook.com/",
-      },
-      {
-        id: 2,
-        iconName: "icon-twitter-squared",
-        link: "https://twitter.com/",
-      },
-      {
-        id: 3,
-        iconName: "icon-behance-squared",
-        link: "https://www.behance.net/",
-      },
-      {
-        id: 4,
-        iconName: "icon-linkedin-squared",
-        link: "https://www.linkedin.com/",
-      },
+    bigImage: "assets/img/portfolio/khcn/khcn1.jpg",
+    images: [
+      "assets/img/portfolio/khcn/khcn2.jpg",
+      "assets/img/portfolio/khcn/khcn3.jpg",
     ],
-    bigImage: "assets/img/portfolio/1.jpg",
-    images: ["assets/img/portfolio/2.jpg", "assets/img/portfolio/3.jpg"],
   },
 ];
 const Portfolio = () => {
@@ -350,7 +360,7 @@ const Portfolio = () => {
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Sở Khoa Học và Công Nghệ"
+                    data-title="Saigon Medic"
                     data-category="Vietnam"
                   >
                     <a
@@ -368,7 +378,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/7.jpg"
+                        data-img-url="assets/img/portfolio/sgmd/sgmd.jpg"
                       />
                     </a>
                   </div>
@@ -378,14 +388,14 @@ const Portfolio = () => {
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Saigon Medic"
+                    data-title="Sở Khoa Học và Công Nghệ"
                     data-category="Vietnam"
                   >
                     <a
                       className="popup_info"
                       href="#"
                       onClick={() => {
-                        setPortfolioDetailsModal(detailData[0]);
+                        setPortfolioDetailsModal(detailData[2]);
                         modalToggle(true);
                       }}
                     >
@@ -396,7 +406,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/8.jpg"
+                        data-img-url="assets/img/thumbs/khcn.jpg"
                       />
                     </a>
                   </div>
