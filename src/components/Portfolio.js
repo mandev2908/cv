@@ -12,11 +12,11 @@ const detailData = [
     text: [
       "Cloudy City is here to support finding and connecting remote workers, digital nomads and freelancers in a skill sharing environment where everyone can grow from a global network of experience.",
     ],
-    client: "...",
+    client: "Cloudy City",
     myWork:
       "Building UX/UI, refactor & optimize component UI, intergrate API, etc...",
     date: "October 22, 2022",
-    category: "...",
+    category: "",
     teamSize: "6",
     technologiesUsed: "ReactJS",
     link: "https://cloudycity.io/",
@@ -333,7 +333,7 @@ const Portfolio = () => {
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
                     data-title="Cloudy City"
-                    data-category="..."
+                    data-category=""
                   >
                     <a
                       className="popup_info"
@@ -361,7 +361,7 @@ const Portfolio = () => {
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
                     data-title="Saigon Medic"
-                    data-category="Vietnam"
+                    data-category=""
                   >
                     <a
                       className="popup_info"
@@ -389,7 +389,7 @@ const Portfolio = () => {
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
                     data-title="Sở Khoa Học và Công Nghệ"
-                    data-category="Vietnam"
+                    data-category=""
                   >
                     <a
                       className="popup_info"
